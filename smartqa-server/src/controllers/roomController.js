@@ -27,6 +27,7 @@ const roomController = {
             const code = request.params.code;
 
             const room = await Rooms.findOne({ roomCode: code });
+            
             if (!room) {
                 return response.status(404).json({ message: 'Room not found' });
             }
