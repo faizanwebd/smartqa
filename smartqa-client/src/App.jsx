@@ -11,6 +11,7 @@ function App() {
             <Route path="/create" element={<CreateRoom />} />
             <Route path="/join" element={<JoinRoom />} />
             <Route path="/room/:code" element={<Room />} />
+            
         </Routes>
     );
 }
