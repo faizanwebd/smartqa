@@ -10,6 +10,7 @@ function CreateRoom() {
 
     const validate = () => {
         const newErrors = {};
+        
         let isValid = true;
         
         if (name.length === 0) {
